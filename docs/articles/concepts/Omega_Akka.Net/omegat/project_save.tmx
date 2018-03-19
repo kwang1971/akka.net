@@ -30,6 +30,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>An actor reference is a subtype of `ActorRef`, whose foremost purpose is to support sending messages to the actor it represents.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="kwang1971" changedate="20180319T100638Z" creationid="kwang1971" creationdate="20180319T100638Z">
+        <seg>一个 actor 引用是 `ActorRef`的一个子类型, 最主要的用途是支持发送消息到它代表的actor。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It ties into the central idea that [Actor Systems](xref:actor-systems) form intrinsic supervision hierarchies as well as that communication between actors is transparent with respect to their placement across multiple network nodes.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="kwang1971" changedate="20180319T091511Z" creationid="kwang1971" creationdate="20180319T091511Z">
