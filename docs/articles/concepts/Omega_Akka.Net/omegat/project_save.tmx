@@ -70,6 +70,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>There are several different types of actor references that are supported depending on the configuration of the actor system:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="kwang1971" changedate="20180319T101347Z" creationid="kwang1971" creationdate="20180319T101347Z">
+        <seg>有几种不同类型的actor引用，这取决于参与者系统的配置：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This chapter describes how actors are identified and located within a possibly distributed actor system.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="kwang1971" changedate="20180319T091233Z" creationid="kwang1971" creationdate="20180319T091233Z">
