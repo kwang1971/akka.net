@@ -22,6 +22,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>## What is an Actor Reference?</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="kwang1971" changedate="20180319T100325Z" creationid="kwang1971" creationdate="20180319T100325Z">
+        <seg>## 什么是 Actor Reference?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It ties into the central idea that [Actor Systems](xref:actor-systems) form intrinsic supervision hierarchies as well as that communication between actors is transparent with respect to their placement across multiple network nodes.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="kwang1971" changedate="20180319T091511Z" creationid="kwang1971" creationdate="20180319T091511Z">
