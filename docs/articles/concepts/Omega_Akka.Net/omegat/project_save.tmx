@@ -30,6 +30,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>- Purely local actor references are used by actor systems which are not configured to support networking functions.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="kwang1971" changedate="20180319T101647Z" creationid="kwang1971" creationdate="20180319T101647Z">
+        <seg>- 单纯本地actor引用被actor 系统使用，没有配置支持网络功能 </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>An actor reference is a subtype of `ActorRef`, whose foremost purpose is to support sending messages to the actor it represents.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="kwang1971" changedate="20180319T100638Z" creationid="kwang1971" creationdate="20180319T100638Z">
