@@ -6,10 +6,34 @@
 <!-- Default translations -->
     <tu>
       <tuv lang="EN-US">
+        <seg>![Actor path](/images/ActorPath.png)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="kwang1971" changedate="20180319T091514Z" creationid="kwang1971" creationdate="20180319T091514Z">
+        <seg>![Actor path](/images/ActorPath.png)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg># Actor References, Paths and Addresses</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="kwang1971" changedate="20180319T090717Z" creationid="kwang1971" creationdate="20180319T090717Z">
         <seg># Actor 引用, 路径和地址</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It ties into the central idea that [Actor Systems](xref:actor-systems) form intrinsic supervision hierarchies as well as that communication between actors is transparent with respect to their placement across multiple network nodes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="kwang1971" changedate="20180319T091511Z" creationid="kwang1971" creationdate="20180319T091511Z">
+        <seg>这关系到中心思想 [Actor Systems](xref:actor-systems) 形成内在的监督层次和在跨多个网络节点的位置上，actors之间的通信是透明的</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The above image displays the relationship between the most important entities within an actor system, please read on for the details.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="kwang1971" changedate="20180319T091610Z" creationid="kwang1971" creationdate="20180319T091610Z">
+        <seg>上面的图片显示了一个参与者系统中最重要的实体之间的关系，请详细阅读。.</seg>
       </tuv>
     </tu>
     <tu>
