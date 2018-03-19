@@ -38,6 +38,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Conversely, during message processing the actor has access to a reference representing the sender of the current message through the sender method.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="kwang1971" changedate="20180319T101217Z" creationid="kwang1971" creationdate="20180319T101217Z">
+        <seg>反过来，在消息处理过程中， actor通过Sender方法访问当前收到的消息的发送者的引用。 </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Each actor has access to its canonical (local) reference through the `Self` property; this reference is also included as sender reference by default for all messages sent to other actors.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="kwang1971" changedate="20180319T101001Z" creationid="kwang1971" creationdate="20180319T101001Z">
+        <seg>每一个 actor 通过`Self`属性访问它的规范 (本地l)引用，这个引用也是缺省包含在它发到其他actor的所有消息中，作为sender .</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It ties into the central idea that [Actor Systems](xref:actor-systems) form intrinsic supervision hierarchies as well as that communication between actors is transparent with respect to their placement across multiple network nodes.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="kwang1971" changedate="20180319T091511Z" creationid="kwang1971" creationdate="20180319T091511Z">
