@@ -32,8 +32,8 @@
       <tuv lang="EN-US">
         <seg>The above image displays the relationship between the most important entities within an actor system, please read on for the details.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="kwang1971" changedate="20180319T091610Z" creationid="kwang1971" creationdate="20180319T091610Z">
-        <seg>上面的图片显示了一个参与者系统中最重要的实体之间的关系，请详细阅读。.</seg>
+      <tuv lang="ZH-CN" changeid="kwang1971" changedate="20180319T091705Z" creationid="kwang1971" creationdate="20180319T091610Z">
+        <seg>上面的图片显示了一个actor系统中最重要的实体之间的关系，请详细阅读。.</seg>
       </tuv>
     </tu>
     <tu>
