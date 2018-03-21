@@ -30,6 +30,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>- And then there are some one-off internal implementations which you should never really see:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="kwang1971" changedate="20180321T151239Z" creationid="kwang1971" creationdate="20180321T151239Z">
+        <seg>- 然后有一些你永远不会看到的一次性内部实现：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>- Local actor references when remoting is enabled are used by actor systems which support networking functions for those references which represent actors within the same CLR.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="kwang1971" changedate="20180321T145547Z" creationid="kwang1971" creationdate="20180321T145547Z">
@@ -70,10 +78,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>- There is an actor reference which does not represent an actor but acts only as a pseudo-supervisor for the root guardian, we call it "the one who walks the bubbles of space-time".</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="kwang1971" changedate="20180321T151436Z" creationid="kwang1971" creationdate="20180321T151436Z">
+        <seg>- 有一个actor的引用不代表actor，但只作为根监护人的伪监督者，我们称之为“走过时空泡沫的人the one who walks the bubbles of space-time”。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>- `DeadLetterActorRef` is the default implementation of the dead letters service to which Akka routes all messages whose destinations are shut down or non-existent.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="kwang1971" changedate="20180321T151036Z" creationid="kwang1971" creationdate="20180321T151036Z">
         <seg>-`DeadLetterActorRef`是Akka死信函服务的默认实现，Akka将目的地被关闭或不存在的所有的消息路由到这个地址。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>- `EmptyLocalActorRef` is what Akka returns when looking up a non-existent local actor path: it is equivalent to a `DeadLetterActorRef`, but it retains its path so that Akka can send it over the network and compare it to other existing actor references for that path, some of which might have been obtained before the actor died.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="kwang1971" changedate="20180321T151211Z" creationid="kwang1971" creationdate="20180321T151211Z">
+        <seg>- ``EmptyLocalActorRef`是Akka在查找不存在的本地actor路径时返回的内容：它相当于一个`DeadLetterActorRef`，但它保留它的路径，以便Akka可以通过网络发送它并将它与其他现有的actor引用进行比较 那条道路，其中一些可能是在actor死亡之前获得的。</seg>
       </tuv>
     </tu>
     <tu>
