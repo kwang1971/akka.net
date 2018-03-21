@@ -126,6 +126,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>An actor path consists of an anchor, which identifies the actor system, followed by the concatenation of the path elements, from root guardian to the designated actor; the path elements are the names of the traversed actors and are separated by slashes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="kwang1971" changedate="20180321T152132Z" creationid="kwang1971" creationdate="20180321T152132Z">
+        <seg>一个actor路径由一个锚点组成，该锚点标识actor系统，然后是从根监护人到指定actor的路径元素的连接; 路径元素是遍历actor的名称，并用斜杠分隔。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>An actor reference is a subtype of `ActorRef`, whose foremost purpose is to support sending messages to the actor it represents.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="kwang1971" changedate="20180319T100638Z" creationid="kwang1971" creationdate="20180319T100638Z">
@@ -174,6 +182,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Since actors are created in a strictly hierarchical fashion, there exists a unique sequence of actor names given by recursively following the supervision links between child and parent down towards the root of the actor system.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="kwang1971" changedate="20180321T151958Z" creationid="kwang1971" creationdate="20180321T151958Z">
+        <seg>由于actor是以严格等级的方式创建的，因此存在一系列独特的actor名字 ，这些actor名字通过递归地跟随儿童和父母之间的监督链接向下Actor系统的根部而给出的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The above image displays the relationship between the most important entities within an actor system, please read on for the details.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="kwang1971" changedate="20180319T091705Z" creationid="kwang1971" creationdate="20180319T091610Z">
@@ -202,6 +218,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="kwang1971" changedate="20180319T091233Z" creationid="kwang1971" creationdate="20180319T091233Z">
         <seg>本章描述了actors是如何在一个可能分布的参与者系统中被识别和定位的.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This sequence can be seen as enclosing folders in a file system, hence we adopted the name "path" to refer to it, although actor hierarchy has some fundamental difference from file system hierarchy.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="kwang1971" changedate="20180321T152033Z" creationid="kwang1971" creationdate="20180321T152033Z">
+        <seg>这个序列可以看作是将文件夹包含在一个文件系统中，因此我们采用名称“path”来引用它，尽管actor层次结构与文件系统层次结构有一些根本的区别。</seg>
       </tuv>
     </tu>
     <tu>
