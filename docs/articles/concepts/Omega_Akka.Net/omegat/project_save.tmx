@@ -70,6 +70,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>- `DeadLetterActorRef` is the default implementation of the dead letters service to which Akka routes all messages whose destinations are shut down or non-existent.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="kwang1971" changedate="20180321T151036Z" creationid="kwang1971" creationdate="20180321T151036Z">
+        <seg>-`DeadLetterActorRef`是Akka死信函服务的默认实现，Akka将目的地被关闭或不存在的所有的消息路由到这个地址。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>- `PromiseActorRef` is the special representation of a `Task` for the purpose of being completed by the response from an actor.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="kwang1971" changedate="20180321T150611Z" creationid="kwang1971" creationdate="20180321T150611Z">
