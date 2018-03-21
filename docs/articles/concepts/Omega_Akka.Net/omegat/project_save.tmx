@@ -46,6 +46,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>- Remote actor references represent actors which are reachable using remote communication, i.e. sending messages to them will serialize the messages transparently and send them to the remote CLR.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="kwang1971" changedate="20180321T150036Z" creationid="kwang1971" creationdate="20180321T150036Z">
+        <seg>-远程Actor引用代表使用远程通信可访问的Actor，即向他们发送消息将透明地序列化消息并将消息发送给远程CLR.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>- There is a subtype of local actor references which is used for routers.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="kwang1971" changedate="20180321T145839Z" creationid="kwang1971" creationdate="20180321T145839Z">
@@ -90,6 +98,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="kwang1971" changedate="20180319T091511Z" creationid="kwang1971" creationdate="20180319T091511Z">
         <seg>这关系到中心思想 [Actor Systems](xref:actor-systems) 形成内在的监督层次和在跨多个网络节点的位置上，actors之间的通信是透明的</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Its logical structure is the same as for the aforementioned local references, but sending a message to them dispatches to one of their children directly instead.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="kwang1971" changedate="20180321T145926Z" creationid="kwang1971" creationdate="20180321T145926Z">
+        <seg>它的逻辑结构与上述的本地引用相同，但是发送消息直接发送给他们的一个孩子。</seg>
       </tuv>
     </tu>
     <tu>
