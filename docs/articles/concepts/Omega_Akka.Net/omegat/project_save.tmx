@@ -150,6 +150,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>An actor reference to the old incarnation is not valid for the new incarnation.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="kwang1971" changedate="20180321T152751Z" creationid="kwang1971" creationdate="20180321T152751Z">
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Conversely, during message processing the actor has access to a reference representing the sender of the current message through the sender method.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="kwang1971" changedate="20180319T101217Z" creationid="kwang1971" creationdate="20180319T101217Z">
@@ -174,6 +182,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It is not the same actor.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="kwang1971" changedate="20180321T152757Z" creationid="kwang1971" creationdate="20180321T152757Z">
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It ties into the central idea that [Actor Systems](xref:actor-systems) form intrinsic supervision hierarchies as well as that communication between actors is transparent with respect to their placement across multiple network nodes.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="kwang1971" changedate="20180319T091511Z" creationid="kwang1971" creationdate="20180319T091511Z">
@@ -190,6 +206,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Messages sent to the old actor reference will not be delivered to the new incarnation even though they have the same path.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="kwang1971" changedate="20180321T152747Z" creationid="kwang1971" creationdate="20180321T152747Z">
+        <seg>您可以创建actor路径而不创建actor，但不能创建演员引用而不创建相应的Actor。您可以创建一个actor，终止它，然后使用相同的actor路径创建一个新actor。新创建的actor是actor的新角色。这不是同一个actor。一个actor引用旧的化身不适用于新的化身。发送给旧actor引用的消息即使具有相同的路径，也不会传递给新的actor。Messages sent to the old actor reference will not be delivered to the new incarnation even though they have the same path.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Since actors are created in a strictly hierarchical fashion, there exists a unique sequence of actor names given by recursively following the supervision links between child and parent down towards the root of the actor system.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="kwang1971" changedate="20180321T151958Z" creationid="kwang1971" creationdate="20180321T151958Z">
@@ -202,6 +226,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="kwang1971" changedate="20180319T091705Z" creationid="kwang1971" creationdate="20180319T091610Z">
         <seg>上面的图片显示了一个actor系统中最重要的实体之间的关系，请详细阅读。.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The newly created actor is a new incarnation of the actor.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="kwang1971" changedate="20180321T152803Z" creationid="kwang1971" creationdate="20180321T152803Z">
+        <seg></seg>
       </tuv>
     </tu>
     <tu>
@@ -234,6 +266,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="kwang1971" changedate="20180321T152033Z" creationid="kwang1971" creationdate="20180321T152033Z">
         <seg>这个序列可以看作是将文件夹包含在一个文件系统中，因此我们采用名称“path”来引用它，尽管actor层次结构与文件系统层次结构有一些根本的区别。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can create an actor, terminate it, and then create a new actor with the same actor path.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="kwang1971" changedate="20180321T152809Z" creationid="kwang1971" creationdate="20180321T152809Z">
+        <seg></seg>
       </tuv>
     </tu>
     <tu>
