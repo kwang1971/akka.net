@@ -70,6 +70,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>- `PromiseActorRef` is the special representation of a `Task` for the purpose of being completed by the response from an actor.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="kwang1971" changedate="20180321T150611Z" creationid="kwang1971" creationdate="20180321T150611Z">
+        <seg>-`PromiseActorRef`是为了通过某个actor的回应完成的`Task`的特殊表示。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>An actor reference is a subtype of `ActorRef`, whose foremost purpose is to support sending messages to the actor it represents.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="kwang1971" changedate="20180319T100638Z" creationid="kwang1971" creationdate="20180319T100638Z">
@@ -146,6 +154,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="kwang1971" changedate="20180319T091233Z" creationid="kwang1971" creationdate="20180319T091233Z">
         <seg>本章描述了actors是如何在一个可能分布的参与者系统中被识别和定位的.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>`ICanTell.Ask` creates this actor reference.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="kwang1971" changedate="20180321T150710Z" creationid="kwang1971" creationdate="20180321T150710Z">
+        <seg>`ICanTell.Ask`创建这个actor引用。</seg>
       </tuv>
     </tu>
 <!-- Alternative translations -->
