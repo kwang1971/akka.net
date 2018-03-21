@@ -47,6 +47,16 @@ Each actor path has an address component, describing the protocol and location b
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>### Logical Actor Paths
+The unique path obtained by following the parental supervision links towards the root guardian is called the logical actor path.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="kwang1971" changedate="20180321T153641Z" creationid="kwang1971" creationdate="20180321T153641Z">
+        <seg>### 逻辑 Actor 路径
+通过跟随家长监督链接获得的独特路径称为逻辑行动者路径。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>### What is the Difference Between Actor Reference and Path?</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="kwang1971" changedate="20180321T152250Z" creationid="kwang1971" creationdate="20180321T152250Z">
@@ -139,6 +149,14 @@ Each actor path has an address component, describing the protocol and location b
       </tuv>
       <tuv lang="ZH-CN" changeid="kwang1971" changedate="20180321T150611Z" creationid="kwang1971" creationdate="20180321T150611Z">
         <seg>-`PromiseActorRef`是为了通过某个actor的回应完成的`Task`的特殊表示。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A remote host using UDP would be accessible by using akka.udp.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="kwang1971" changedate="20180321T153505Z" creationid="kwang1971" creationdate="20180321T153505Z">
+        <seg>使用UDP的远程主机可以通过使用akka.udp进行访问.</seg>
       </tuv>
     </tu>
     <tu>
@@ -255,6 +273,14 @@ Each actor path has an address component, describing the protocol and location b
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The interpretation of the host and port part (i.e.``serv.example.com:5678`` in the example) depends on the transport mechanism used, but it must abide by the URI structural rules.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="kwang1971" changedate="20180321T153544Z" creationid="kwang1971" creationdate="20180321T153544Z">
+        <seg>主机和端口部分的解释（即例子中的``serv.example.com：5678``）取决于使用的传输机制，但它必须遵守URI结构规则。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The newly created actor is a new incarnation of the actor.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="kwang1971" changedate="20180321T152803Z" creationid="kwang1971" creationdate="20180321T152803Z">
@@ -287,6 +313,14 @@ Each actor path has an address component, describing the protocol and location b
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This path matches exactly the creation ancestry of an actor, so it is completely deterministic as soon as the actor system's remoting configuration (and with it the address component of the path) is set.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="kwang1971" changedate="20180321T153739Z" creationid="kwang1971" creationdate="20180321T153739Z">
+        <seg>该路径完全匹配actor的创建祖先，所以只要actor系统的远程配置（并且使用该路径的地址组件）被设置，它就是完全确定的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This sequence can be seen as enclosing folders in a file system, hence we adopted the name "path" to refer to it, although actor hierarchy has some fundamental difference from file system hierarchy.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="kwang1971" changedate="20180321T152033Z" creationid="kwang1971" creationdate="20180321T152033Z">
@@ -315,6 +349,22 @@ Each actor path has an address component, describing the protocol and location b
       </tuv>
       <tuv lang="ZH-CN" changeid="kwang1971" changedate="20180321T150710Z" creationid="kwang1971" creationdate="20180321T150710Z">
         <seg>`ICanTell.Ask`创建这个actor引用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>````csharp
+"akka://my-sys/user/service-a/worker1"                   // purely local
+"akka.tcp://my-sys@host.example.com:5678/user/service-b" // remote
+````
+Here, `akka.tcp` is the default remote transport; other transports are pluggable.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="kwang1971" changedate="20180321T153441Z" creationid="kwang1971" creationdate="20180321T153441Z">
+        <seg>````csharp
+"akka://my-sys/user/service-a/worker1"                   // purely local
+"akka.tcp://my-sys@host.example.com:5678/user/service-b" // remote
+````
+这儿, `akka.tcp` 是默认的远程传输; 其他传输是可插拔的。</seg>
       </tuv>
     </tu>
 <!-- Alternative translations -->
