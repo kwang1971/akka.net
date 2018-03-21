@@ -38,6 +38,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>### What is the Difference Between Actor Reference and Path?</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="kwang1971" changedate="20180321T152250Z" creationid="kwang1971" creationdate="20180321T152250Z">
+        <seg>### Actor引用和路径的区别?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>- And then there are some one-off internal implementations which you should never really see:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="kwang1971" changedate="20180321T151239Z" creationid="kwang1971" creationdate="20180321T151239Z">
