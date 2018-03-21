@@ -22,6 +22,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>## What is an Actor Path?</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="kwang1971" changedate="20180321T151628Z" creationid="kwang1971" creationdate="20180321T151628Z">
+        <seg>## 什么是 Actor Path?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>## What is an Actor Reference?</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="kwang1971" changedate="20180319T100325Z" creationid="kwang1971" creationdate="20180319T100325Z">
@@ -58,6 +66,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="kwang1971" changedate="20180321T150036Z" creationid="kwang1971" creationdate="20180321T150036Z">
         <seg>-远程Actor引用代表使用远程通信可访问的Actor，即向他们发送消息将透明地序列化消息并将消息发送给远程CLR.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>- The first logging service started before actually firing up actor creation facilities is a fake actor reference which accepts log events and prints them directly to standard output; it is `Logging.StandardOutLogger`.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="kwang1971" changedate="20180321T151612Z" creationid="kwang1971" creationdate="20180321T151612Z">
+        <seg>- 在实际启动actor创建设施之前启动的第一个日志记录服务是假的actor引用，它接受日志事件并将它们直接打印到标准输出; 它是`Logging.StandardOutLogger`。</seg>
       </tuv>
     </tu>
     <tu>
