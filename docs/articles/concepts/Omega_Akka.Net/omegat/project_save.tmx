@@ -86,6 +86,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>These actor references will not function if sent across a network connection to a remote CLR.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="kwang1971" changedate="20180321T145225Z" creationid="kwang1971" creationdate="20180321T145225Z">
+        <seg>如果通过网络连接发送到远程CLR，这些Actor引用将不起作用.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This chapter describes how actors are identified and located within a possibly distributed actor system.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="kwang1971" changedate="20180319T091233Z" creationid="kwang1971" creationdate="20180319T091233Z">
