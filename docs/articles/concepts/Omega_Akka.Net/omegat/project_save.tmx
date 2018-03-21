@@ -38,6 +38,15 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>### Actor Path Anchors
+Each actor path has an address component, describing the protocol and location by which the corresponding actor is reachable, followed by the names of the actors in the hierarchy from the root up.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="kwang1971" changedate="20180321T153317Z" creationid="kwang1971" creationdate="20180321T153317Z">
+        <seg>### actor路径锚 每个actor路径都有一个地址组件，描述了相应actor可访问的协议和位置，后面跟着层次结构中actor的名称.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>### What is the Difference Between Actor Reference and Path?</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="kwang1971" changedate="20180321T152250Z" creationid="kwang1971" creationdate="20180321T152250Z">
@@ -178,6 +187,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="kwang1971" changedate="20180319T101001Z" creationid="kwang1971" creationdate="20180319T101001Z">
         <seg>每一个 actor 通过`Self`属性访问它的规范 (本地l)引用，这个引用也是缺省包含在它发到其他actor的所有消息中，作为sender .</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Examples are:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="kwang1971" changedate="20180321T153347Z" creationid="kwang1971" creationdate="20180321T153347Z">
+        <seg>例子如下:</seg>
       </tuv>
     </tu>
     <tu>
