@@ -30,6 +30,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>- Local actor references when remoting is enabled are used by actor systems which support networking functions for those references which represent actors within the same CLR.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="kwang1971" changedate="20180321T145547Z" creationid="kwang1971" creationdate="20180321T145547Z">
+        <seg>- 启用远程处理时的本地Actor引用由Actor系统使用，该Actor支持表示同一CLR内的Actors的那些引用的联网功能.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>- Purely local actor references are used by actor systems which are not configured to support networking functions.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="kwang1971" changedate="20180319T101647Z" creationid="kwang1971" creationdate="20180319T101647Z">
